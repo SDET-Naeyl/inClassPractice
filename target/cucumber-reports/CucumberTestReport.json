@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14536511500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should navigate to Test Environment page",
+        "description": "",
+        "id": "test-environment-page-tests;user-should-navigate-to-test-environment-page",
+        "after": [
+          {
+            "result": {
+              "duration": 6087056300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8321420300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens Tek School of America page",
+            "match": {
+              "location": "PracticeStepDefinition.user_opens_Main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4145862400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Test Environment Link",
+            "match": {
+              "location": "PracticeStepDefinition.user_clicks_on_testLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be on Test Environment Page",
+            "match": {
+              "location": "PracticeStepDefinition.user_should_see_testPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Practice"
+          }
+        ]
+      }
+    ],
+    "name": "Test Environment page Tests",
+    "description": "",
+    "id": "test-environment-page-tests",
+    "keyword": "Feature",
+    "uri": "Features/Tek.feature"
+  }
+]
